@@ -1,0 +1,7 @@
+{
+  "tolerancia": 0.8,
+  "timeSleep1": 1,
+  "timeSleep2": 1,
+  "scroll": -500,
+  "grayscale": "False"
+}
