@@ -1,6 +1,6 @@
 # AutoClickBot  
 
-Bot tipo GUI que hace auto click a imagen similar que aparezaca en pantalla mientras hace scroll.
+Bot tipo GUI que hace auto click a imagen similar que aparezca en pantalla mientras hace scroll.
 
 ## Parametros  
 
