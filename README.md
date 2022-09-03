@@ -27,4 +27,8 @@ Puedes cambiar los parametros en el archivo *parametros.json*
 ## Imagen  
 
 Debes tomar una captura de pantalla y recortar exactamente el elemento que quieres que el bot reconozca en la pantalla (es de suma importancia ser exacto con el recorte ya que el reconocimiento es píxel a píxel).  
-La imagen a usar se debe guardar con el nombre *img.png* el cual sustituirá a la imagen que viene por defecto.
+La imagen a usar se debe guardar con el nombre *img.png* el cual sustituirá a la imagen que viene por defecto.  
+
+## Documentación de herramientas principales usadas  
+  
+  - [pyautogui](https://pyautogui.readthedocs.io/en/latest/)
