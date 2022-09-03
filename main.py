@@ -31,14 +31,15 @@ escuchador.start()
 # Funcion principal
 while isOn:
     time.sleep(parametros['timeSleep1'])
-    posiciones = pyautogui.locateOnScreen(
+    posiciones = pyautogui.locateCenterOnScreen(
         'img.png',
         confidence=parametros['tolerancia'],
         grayscale=parametros['grayscale']
     )
     if posiciones is not None:
-        moveToY = posiciones.top
-        moveToX = posiciones.left
+        moveToY = posiciones.y
+        moveToX = posiciones.x
+        print(moveToX, moveToY)
         pyautogui.click(x=moveToX, y=moveToY)
     time.sleep(parametros['timeSleep2'])
     pyautogui.scroll(parametros['scroll'])
